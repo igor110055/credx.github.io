@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c630a0de2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <title>CredX Cryptocurrency</title>
+  </head>
+  <body>
+    <!--Nav start-->
+    <nav class="navbar navbar-expand-lg px-4 navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="index.html"><img src="images/credx107x36.png" style="padding-bottom: 6px;"></a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: darkorange; align-content: center;">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-15 mb-lg-0 fs-6 text-center gap-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                  Use Credx
+                </a>
+                <ul class="dropdown-menu text-primary dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="credx_wallet.html">CredX Wallets</a></li>
+                  <li><a class="dropdown-item" href="Get_CDX.html">Get CDX</a></li>
+                  <li><a class="dropdown-item" href="stake_cdx.html">Stake CDX</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Learn
+                </a>
+                <ul class="dropdown-menu text-primary dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="What_is_credx.html">What is CredX?</a></li>
+                  <li><a class="dropdown-item" href="what_is_cdx.html">What is CDX?</a></li>
+                  <li><a class="dropdown-item" href="Defi.html">Decentralized Finance(DeFi)</a></li>
+                  <li><a class="dropdown-item" href="smart_contract.html">Smart Contracts</a></li>
+                  <li><a class="dropdown-item" href="images/Credx_HongKong.pdf" target="_blank">WhitePaper</a></li>
+                  <li><a class="dropdown-item" href="security_scam.html">CredX Security and Scam Preventation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Developers
+                </a>
+                <ul class="dropdown-menu text-primary dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Developer_home.html">Developer'S Home</a></li>
+                  <li><a class="dropdown-item" href="Overview.html">Documentation</a></li>
+                  <li><a class="dropdown-item" href="set_up_local_environment.html">Set Up Local Environment</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Enterprise
+                </a>
+                <ul class="dropdown-menu text-primary dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="mainnet_credx.html">Mainnet CredX</a></li>
+                  <li><a class="dropdown-item" href="private_credx.html">Private CredX</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Community
+                </a>
+                <ul class="dropdown-menu text-primary dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="communityhub.html">Community Hub</a></li>
+                  <li><a class="dropdown-item" href="CredX_support.html">CredX Spport</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Right elements -->
+            <div class="d-flex align-items-center gap-3">
+              <!-- Icon -->
+              <form class="d-flex text-white fs-6" style="width: 30px;">
+                <i class="fas fa-moon" onclick="myFunction()"><br>
+                    <script>
+                        function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                        }
+                    </script>
+                </i>
+            </form>
+            <form class="d-flex justify-content-md-end" id="google_translate_element">
+              <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                  <script>
+                          function googleTranslateElementInit() {
+                              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+                          }
+                  </script>
+              </script>
+            </form>
+            <a href="https://credx24.com/CredX-iOS.mobileconfig"><img src="images/online/appstore.png" width="30px" class="wow infinite tada"></a>
+            <a href="https://credx24.com/Credx_v_2.2.apk"><img src="images/online/googleplaystore.png" width="30px" class="wow infinite tada"></a>
+            </div>
+            <!-- Right elements -->
+          </div>
+        </div>
+      </nav>
+      <!--nav end-->
+      <!--header start-->
+      <section class="header">
+        <div class="container text-center text-white" style="padding-top: 100px; padding-bottom: 22px;">
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  <h1>Welcome to Credx<span></span></h1><br>
+                  <h1>Blockchain<span></span></h1>
+                  <!--<h1 style="font-size: 40px;">Welcome to CREDX<br><span class="text-warning">Blockchain</span></h1>-->
+                  <p style="font-size: 25px; font-weight: 400;" class="wow fadeInRight">CredX Blockchain is the new age community-run technology powering the cryptocurrency <span class="text-warning">CredX Coin (CDX).</p>
+                  <button class="btn btn-warning px-4 py-2 wow fadeInLeft" style="border-radius: 30px; font-weight: bold;"><a href="What_is_credx.html" style="text-decoration: none; color: black;">Explore Credx</a></button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--header end-->
+    <!--new start-->
+    <main class="mt-5">
+        <div class="container">
+            <!--GetStarted Start-->
+            <section>
+                <div class="row">
+                    <div class="col-md-6 gx-5 mb-4">
+                        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5 wow infinite pulse" data-mbd-ripple-color="light">
+                            <img src="images/getstarted.svg" class="img-fluid">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 gx-5 mb-4" style="padding-top: 90px;">
+                        <div class="text text-start">
+                            <h1 style="font-weight: bold; font-size: 50px; padding-bottom: 3%;" class="wow zoomIn">Get <span class="text-primary">started</span></h1>
+                            <p style="font-weight: 500; padding-bottom: 3%;" class="wow fadeInLeft">credx24.com is your portal into the world of CredX Blockchain.<br>The tech is new and ever-evolving. Here's what we recommend you do if you want to dive in.</p>
+                            <button class="btn btn-warning px-4 py-2 wow rubberBand" style="border-radius: 30px; font-weight: bold;"><a href="images/Credx_HongKong.pdf" target="_blank" style="text-decoration: none; font-weight: bold;" class="text-dark">Read Whitepaper</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--GetStarted End-->
+            <hr class="my-5">
+            <section>
+              <div class="row">
+                <div class="col-md-6 gx-5 mb-4" style="padding-top: 5%;">
+                  <div class="text text-start">
+                    <h1 style="font-weight: bold; font-size: 50px; padding-bottom: 5%;" class="wow zoomIn"><span class="text-primary">Credx</span> Pentagon</h1>
+                    <p style="font-weight: 500; padding-bottom: 2%;" class="wow fadeInRight">Credx is the central powerhouse to our ecosystem. A CDX Coin that incorporates 5 fantastic protocols into it's smart contract. Together, it's tokenomics synergize as one unique token, delivering something powerful for everyone.</p>
+                    <p style="font-weight: 500; padding-bottom: 2%;" class="wow fadeInLeft">Read through to learn about how each individual protocol works.</p>
+                </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <!--carosal start-->
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item text-center active">
+                        <!--card 2-->
+                        <div class="card mr-2 d-inline-block shadow-lg text-white border-0">
+                          <div class="card text-white bg-primary" style="max-width: 35rem; min-height: 30rem;">
+                            <div class="card-header border-0"><img src="images/hashBlockStacking.png" style="width: 200px;" class="wow infinite tada"></div>
+                            <div class="card-body">
+                              <h5 class="card-title">#BlockStacking</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <!--Card-3-->
+                        <div class="card mr-2 d-inline-block shadow-lg  text-white">
+                          <div class="card text-white bg-primary" style="max-width: 35rem; min-height: 30rem;">
+                            <div class="card-header"><img src="images/hashCredXProtocol.png" style="width: 200px;" class="wow infinite tada"></div>
+                            <div class="card-body">
+                              <h5 class="card-title">#CredXProtocol</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                      <!--Card-3-->
+                      <div class="card mr-2 d-inline-block shadow-lg  text-white">
+                        <div class="card text-white bg-primary" style="max-width: 35rem; min-height: 30rem;">
+                          <div class="card-header"><img src="images/hashDeFiMoney.png" style="width: 200px;" class="wow infinite tada"></div>
+                          <div class="card-body">
+                            <h5 class="card-title">#DeFiMoney</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <!--Card-3-->
+                    <div class="card mr-2 d-inline-block shadow-lg  text-white">
+                      <div class="card text-white bg-primary" style="max-width: 35rem; min-height: 30rem;">
+                        <div class="card-header"><img src="images/hashDexSwaping.png" style="width: 200px;" class="wow infinite tada"></div>
+                        <div class="card-body">
+                          <h5 class="card-title">#DexSwaping</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="carousel-item text-center">
+                  <!--Card-3-->
+                  <div class="card mr-2 d-inline-block shadow-lg text-white">
+                    <div class="card text-white bg-primary" style="max-width: 35rem; min-height: 30rem;">
+                      <div class="card-header"><img src="images/hashLiquidityPools.png" style="width: 200px;" class="wow infinite tada"></div>
+                      <div class="card-body">
+                        <h5 class="card-title">#LiquidityPools</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <hr class="my-5">
+            <section>
+                <div class="row">
+                    <div class="col-md-6 gx-5 mb-4" style="padding-top: 90px;">
+                        <div class="text-start">
+                            <h1 style="font-weight: bold; font-size: 50px; padding-bottom: 4%;" class="wow zoomIn">What is <span class="text-primary">Credx?</span></h1>
+                            <p style="font-weight: 500; padding-bottom: 4%;" class="wow fadeInLeft">Credx is a technology that's home to digital money, global payments, and applications. The community has built a booming digital economy, bold new ways for creators to earn online, and so much more. It's open to everyone, wherever you are in the world – all you need is the internet.</p>
+                            <button class="btn btn-warning px-4 py-2 wow rubberBand" style="border-radius: 30px; font-weight: bold;"><a href="What_is_credx.html" style="text-decoration: none; font-weight: bold;" class="text-dark">Explore Credx</a></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 gx-5 mb-4">
+                        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
+                            <img src="images/getstarted.svg" class="img-fluid wow infinite pulse">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section>
+                <div class="row">
+                    <div class="col-md-6 gx-5 mb-4">
+                        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
+                            <img src="images/getstarted.svg" class="img-fluid wow infinite pulse">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 gx-5 mb-4" style="padding-top: 50px;">
+                        <div class="text text-start">
+                            <h1 style="font-weight: bold; font-size: 50px; padding-bottom: 4%;" class="wow zoonIn">What is <span class="text-primary">CDX</span> coin?</h1>
+                            <p style="font-weight: 500; padding-bottom: 4%;" class="wow fadeInLeft">CDX is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. CDX is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances. CDX features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, CDX is a proven medium of commerce complementary to Bitcoin.</p>
+                            <button class="btn btn-warning px-4 py-2 wow rubberBand" style="border-radius: 30px; font-weight: bold;"><a href="Get_CDX.html" style="text-decoration: none; font-weight: bold;" class="text-dark">Get CDX</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section class="text-center">
+                <h1 style="font-weight: bold; padding-bottom: 3%;" class="wow zoomIn">Explore <span class="text-primary">credX </span>Blockchain</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card bg-dark text-white wow fadeInLeft" style="height: 30rem;">
+                            <div class="bg-image" data-mdb-ripple-color="light">
+                              <img src="images/online/blockchain (1).png" class="img-fluid wow infinite pulse" width="200"/>
+                              <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                              </a>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-weight: bold; color: lightskyblue; font-size: 30px;">Blockchain</h5>
+                              <p class="card-text">It is transperant. It is just another bitcoin forked blockchain with intelligent code changes. More faster and light weight. With almost zero carbon footprint. The CredX blockchain is capable of handling higher transaction volume than its counterpart - Bitcoin. Due to more frequent block generation, the network supports more transactions without a need to modify the software in the future. As a result, merchants get faster confirmation times, while still having ability to wait for more confirmations when selling bigger ticket items.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card bg-dark text-white wow fadeInRight" style="height: 30rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                              <img src="images/online/walletEncryption (1).png" class="img-fluid wow infinite pulse" width="200"/>
+                              <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                              </a>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-weight: bold; color: lightskyblue; font-size: 30px;">Wallet Encryption</h5>
+                              <p class="card-text" style="padding-bottom: 12%;">Wallet encryption allows you to secure your wallet, so that you can view transactions and your account balance, but are required to enter your password before spending cdx(coins). This provides protection from wallet-stealing viruses and trojans as well as a sanity check before sending payments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card bg-dark text-white  wow fadeInLeft" style="height: 30rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                              <img src="images/online/miningReward (1).png" class="img-fluid wow infinite pulse" width="200"/>
+                              <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                              </a>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-weight: bold; color: lightskyblue; font-size: 30px;">Mining Reward</h5>
+                              <p class="card-text">Introducing BlockStacking. Its simple like ethereum and works on the basis of validator staking system. Stake to become a validator. Staking is a public good for the CDX ecosystem. You can help secure the network and earn rewards in the process. Block staking reward and coin generation is explained here.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-4">
+                      <div class="card bg-dark text-white  wow fadeInRight" style="height: 30rem;">
+                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="images/online/miningReward (1).png" class="img-fluid wow infinite pulse" width="200"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold; color: lightskyblue; font-size: 30px;">Mining Reward</h5>
+                            <p class="card-text">Introducing BlockStacking. Its simple like ethereum and works on the basis of validator staking system. Stake to become a validator. Staking is a public good for the CDX ecosystem. You can help secure the network and earn rewards in the process. Block staking reward and coin generation is explained here.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section>
+                <div class="row">
+                    <div class="col-md-6 gx-5 mb-4">
+                        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
+                            <img src="images/defi.png" class="img-fluid wow infinite pulse">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 gx-5 mb-4" style="padding-top: 50px;">
+                        <div class="text text-start">
+                            <h1 style="font-weight: bold; font-size: 50px; padding-bottom: 4%;" class="wow zoomIn">Defi <span class="text-primary">Credx </span>Protocol</h1>
+                            <p style="font-weight: 500; padding-bottom: 2%;" class="wow fadeInLeft">Today, billions of people can’t open bank accounts, others have their payments blocked. CredX's decentralized finance (DeFi) system never sleeps or discriminates. With just an internet connection, you can send, receive, borrow, earn interest, and even stream funds anywhere in the world.</p>
+                            <p style="font-weight: 500; padding-bottom: 3%;" class="wow fadeInRight">There’s no approval needed to join the new age of money. Download your free wallet to join and invest in the future of finance.</p>
+                            <button class="btn btn-warning px-4 py-2 wow rubberBand" style="border-radius: 30px; font-weight: bold;"><a href="Defi.html" style="text-decoration: none; font-weight: bold;" class="text-dark">Explore Defi</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section>
+                <div class="row">
+                    <div class="col-md-6 gx-5 mb-4">
+                        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
+                            <img src="images/defi2.png" class="img-fluid wow infinite pulse">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 gx-5 mb-4" style="padding-top: 50px;">
+                        <div>
+                            <h1 style="font-weight: bold; font-size: 50px;" class="wow zoomIn">Become <span class="text-primary">validator</span>.</h1>
+                            <p style="font-weight: 100;" class="wow fadeInLeft">Transaction validation works via BlockStaking. It is a liquid staking solution that promote censorship resistance, decentralization, and the growth of DeFi on CredX Protocol.</p>
+                        </div>
+                        <div>
+                            <h1 style="font-weight: bold; font-size: 50px;" class="wow zoomIn">Use <span class="text-primary">CDX</span>.</h1>
+                            <p style="font-weight: 100;" class="wow fadeInRight">Download wallet and start sending and receiving CDX coins securely. CredX is a battle-tested scaled blockchain engine, deployed on mainnet since Oct 2021.</p>
+                            <button class="btn btn-warning px-4 py-2 wow rubberBand" style="border-radius: 30px; font-weight: bold;"><a href="Get_CDX.html" style="text-decoration: none; font-weight: bold;" class="text-dark">Explore CDX</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section class="section-6">
+                <div class="coinlist">
+                    <div class="content text-center">
+                        <h1 style="font-weight: bold; color: white; font-size: 60px;" class="wow zoomIn">Coin List</h1>
+                        <p style="color: white; font-size: 30px;" class="wow zoomIn">Other Cryptocurrency coins values...</p>
+                    </div>
+                </div>
+                <div class="cointainer text-center">
+                    <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                        <div class="rect wow infinite tada">
+                            <img src="images/dogecoin.webp">
+                            <div>
+                                <h3>$<span id="dogecoin"></span></h3>
+                                <p style="font-weight: bold;">Dogecoin</p>
+                            </div>
+                        </div>
+                        <div class="rect wow infinite tada">
+                            <img src="images/ethereum.webp">
+                            <div>
+                                <h3>$<span id="ethereum"></span></h3>
+                                <p style="font-weight: bold;">Ethereum</p>
+                            </div>
+                        </div>
+                        <div class="rect wow infinite tada">
+                            <img src="images/bitcoin.webp">
+                            <div>
+                                <h3>$<span id="bitcoin"></span></h3>
+                                <p style="font-weight: bold;">Bitcoin</p>
+                            </div>
+                        </div>
+                        <div class="rect wow infinite tada">
+                            <img src="images/tron-logo.webp">
+                            <div>
+                                <h3>$<span id="tron"></span></h3>
+                                <p style="font-weight: bold;">Tron</p>
+                            </div>
+                        </div>
+                        <div class="rect wow infinite tada">
+                            <img src="images/online/binancs.webp">
+                            <div>
+                                <h3>$<span id="binancecoin"></span></h3>
+                                <p style="font-weight: bold;">Binance</p>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var dgc = document.getElementById("dogecoin");
+                        var eth = document.getElementById("ethereum");
+                        var btc = document.getElementById("bitcoin");
+                        var trx = document.getElementById("tron");
+                        var bnb = document.getElementById("binancecoin");
+                        var settings = {
+                            "async" : true,
+                            "scrossDomain":true,
+                            "url":"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Ctron%2Cdogecoin%2Cethereum%2Cmatic-network%2Cbinancecoin&vs_currencies=usd","method":"GET","headers":{}
+                        }
+                        $.ajax(settings).done(function(response){
+                            dgc.innerHTML = response.dogecoin.usd;
+                            eth.innerHTML = response.ethereum.usd;
+                            btc.innerHTML = response.bitcoin.usd;
+                            trx.innerHTML = response.tron.usd;
+                            bnb.innerHTML = response.binancecoin.usd;
+                        });
+                    </script>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section>
+              <h1 class="text-center" style="padding-bottom: 5%; font-weight: bold;">Follow Credx On Social Media</h1>
+              <div class="text-center py-4 align-items-center">
+                <div class="row">
+                  <div class="col-md-2 gx-5 mb-4 wow zoomInUp"><a href="https://www.facebook.com/CredXCoinOfficial" target="_blank" style="padding-right: 40px;"><img src="images/online/facebook2.png" width="50px"></a></div>
+                  <div class="col-md-2 gx-5 mb-4 wow zoomInUp"><a href="https://instagram.com/credx_official?utm_medium=copy_link" target="_blank" style="padding-right: 40px;"><img src="images/online/instagram2.png" width="50px"></a></div>
+                  <div class="col-md-2 gx-5 mb-4 wow zoomInUp"><a href="https://twitter.com/CREDX_" target="_blank" style="padding-right: 40px;"><img src="images/online/twitter3.png" width="50px"></a></div>
+                  <div class="col-md-2 gx-5 mb-4 wow zoomInUp"><a href="https://www.youtube.com/channel/UCIqeg1jZ2JjveGiMpRRmtqg" target="_blank" style="padding-right: 40px;"><img src="images/online/youtube3.png" width="50px"></a></div>
+                  <div class="col-md-2 gx-5 mb-4 wow zoomInUp"><a href="https://www.linkedin.com/in/credx24/" target="_blank" style="padding-right: 40px;"><img src="images/online/linkdin2.png" width="50px"></a></div>
+                  <div class="col-md-2 gx-5 mb-4 wow zoomInUp"><a href="https://t.me/credx" target="_blank" style="padding-right: 40px;"><img src="images/online/telegram2.png" width="50px"></a></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 wow zoomInUp"><a href="https://credx24.com/CredX-iOS.mobileconfig" style="padding-right: 40px;"><img src="images/online/app-store.png" width="50px"></a></div>
+                  <div class="col-md-6 wow zoomInUp"><a href="https://credx24.com/Credx_v_2.2.apk" style="padding-right: 40px;"><img src="images/online/playstore.png" width="50px"></a></div>
+                </div>
+              </div>
+            </section>
+            <hr class="my-5">
+            <section id="section-9">
+                <div class="text-center">
+                    <h1 clas="text-dark wow zoomInUp" style="font-weight: bold;">Why <span class="text-primary">CDX</span> Coin</h1>
+                    <p class="text-secondary wow fadeInLeft">The CredX we know and love, just more scalable, more secure, and more sustainable...</p>
+                </div>
+                <div class="team row">
+                    <!--Card 1-->
+                    <div class="col-lg-4 col-md-12 mb-4 wow fadeInLeft">
+                        <div class="card mr-2 d-inline-block shadow-lg">
+                            <div class="card-img-top">
+                                <img src="images/online/salary.png" style="width: 54%; position: relative;" class="mx-auto d-block">
+                            </div>
+                            <div class="card-body text-dark">
+                                <h1 class="card-title text-center" style="font-weight: bold;">Your Money</h1>
+                                <p class="card-text text-center">CredXCoin (CDX) is decentralised money, free from censorship and open to all. Send low cost private, secure, borderless payments to anyone, anytime, anywhere.</p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4 wow fadeInUp">
+                        <!--carosal start-->
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                            <div class="carousel-item text-center active">
+                                <!--card 2-->
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="images/online/blockchain3.png" style="width: 40%; position: relative;" class="mx-auto d-block">
+                                    </div>
+                                    <div class="card-body text-dark">
+                                        <h1 class="card-title text-center" style="font-weight: bold;">Secured <br> Blockchain</h1>
+                                        <p class="card-text text-center">The CredX blockchain is the new age global crypto network chain, operating since Oct 2021 securing and tracasting financial economy of the world.</p>         
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <!--Card-3-->
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="images/online/decentralized.png" style="width: 48%; position: relative;" class="mx-auto d-block">
+                                    </div>
+                                    <div class="card-body text-dark">
+                                        <h1 class="card-title text-center" style="font-weight: bold;">Decentralised <br> Finance</h1>
+                                        <p class="card-text text-center">There’s no approval needed to join the new age of money. Download your free wallet to join and invest in the future of finance.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card 4-->
+                    <div class="col-lg-4 col-md-12 mb-4 wow fadeInRight">
+                        <div class="card mr-2 d-inline-block shadow-lg">
+                            <div class="card-img-top">
+                                <img src="images/online/personal-information.png" style="width: 40%; position: relative;" class="mx-auto d-block">
+                            </div>
+                            <div class="card-body text-dark">
+                                <h1 class="card-title text-center" style="font-weight: bold;">Evolving and <br> Immutable</h1>
+                                <p class="card-text text-center">CredX development pioneers technologies for instant global settlement of funds and Atomic Swaps for cross blockchain trustless trading.</p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section clas="section-10">
+                <h1 class="text-center wow zoomIn" style="font-weight: bold; padding-bottom: 2%;">What is <span class="text-primary">Special</span> about it?</h1>
+                <div class="row">
+                    <div class="col-md-4 gx-5 mb-4">
+                        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
+                            <img src="images/credxwallet.png" class="img-fluid wow infinite pulse" style="width: 80%;">
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 gx-5 mb-4" style="padding-top: 120px;">
+                        <div class="text text-center">
+                            <h4>Coin generation and distribution system of  <span class="badge bg-warning text-dark wow tada">ETHEREUM</span></h3>
+                            <h4>Security and blockchain structure of  <span class="badge bg-danger text-dark wow tada">BITCOIN</span></h3>
+                            <h4>Transaction fee almost zero like  <span class="badge bg-success text-dark wow tada">TRON</span></h3>
+                            <h4>Speed and capability of  <span class="badge bg-secondary text-dark wow tada">SOLANA</span></h3>
+                            <h4>It Is <span class="badge bg-info text-dark wow tada">CREDX</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="my-5">
+            <section style="padding-bottom: 10%;">
+                <div class="faq">
+                    <h1 class="text-center wow zoomIn" style="font-weight: bold;">Frequently <span class="text-primary">Asked</span> Question</h1>
+                    <p class="text-center">Here are some common questions that often come up. <br> Below we have answered some questions.</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-right">
+                                    <img style="width: 80%; padding: 1rem 3rem; padding-left: 2rem;" src="images/getstarted.svg" class="wow infinite pulse">
+                                </div> 
+                               </div>
+                           <div class="col-md-6 col-gap">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item wow fadeInLeft">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed bg-white" style="font-weight: bold; font-size: 20px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What is CredX Coin (CDX)?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show bg-dark text-white" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <p>CredX Coin (CDX) is a digital peer to peer network that aims to implement a use case specific blockchain, designed to efficiently handle one specific function: the transfer of assets from one party to another. Built on a fork of the Bitcoin code, CredX Coin (CDX) was launched 2nd October 2021, and is a truly open source project (no ICO). It focuses on building a useful technology, with a strong and growing community.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item wow fadeInRight">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed bg-white" style="font-weight: bold; font-size: 20px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How CredX Blockchain works?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <p>A fork of the bitcoin code, To help promote Green Revolution there are some major changes done in CredX Blockchain. It features the issuance schedule (block reward of 0.00000001 CDX) and Block time (1 minute) and MasterNodes. Its coins generation system (mining system) is dual layered managed via MasterNodes and Master VM(Virtual Machine) to manage decentralised behaviour of Block Stacking. It is fully explained in WhitePaper Docs.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item wow fadeInLeft">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed bg-white" style="font-weight: bold; font-size: 20px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Does community members have any CDX?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <p>No there are no coins distributed to any of the developers or to any initial community members. Each and every one will have to go through the block stacking system to mine/get new coins. It will be distributed by the pre defined rules set in to the MasterNodes and Master VMs. Anyone can become block stackig member via contributing to it and start adding new coins to circulating supply.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item wow fadeInRight">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed bg-white" style="font-weight: bold; font-size: 20px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How there is no carbon footprint of CDX?
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p>To attain decentralized etiquette we have formed a MasterNode and MasterVM concept. With the code of Bitcoin and Ethereum's Stacking Concept. So because there will be limited MasterNodes, there will be not be power usage in mining. And hence it is Green Revolution friendly coin with almost no carbon footprint. For proper understaing of it please read WhitePapers.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!--new end-->
+    <!--footer start-->
+    <div class="container p-0">
+        
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container-fluid p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/CredXCoinOfficial" role="button" target="_blank"
+          ><img src="images/online/facebook2.png" width="30px"></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/CREDX_" role="button" target="_blank"
+          ><img src="images/online/twitter2.png" width="30px"></a>
+  
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/credx_official?utm_medium=copy_link" role="button" target="_blank"
+          ><img src="images/online/instagram2.png" width="30px"></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/credx24/" role="button" target="_blank"
+          ><img src="images/online/linkdin2.png" width="30px"></a>
+   
+        <!-- Youtube -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCIqeg1jZ2JjveGiMpRRmtqg" role="button" target="_blank"
+          ><img src="images/online/youtube2.png" width="30px"></a>
+
+        <!-- Telegram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://t.me/credx" role="button" target="_blank"
+          ><img src="images/online/telegram2.png" width="30px"></a>
+        
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for New Updates</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+      <div class="row text-left">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">CredX24.com</h1>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/join.png"> Join CredX Community.</p>
+            <p class="text-muted">©Copyright 2021 CredX BlockChain™</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Resources</h1>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/blockpapet.png"> Block paper</p>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/whitepaper.png"> <a href="images/Credx_HongKong.pdf" target="_blank" style="text-decoration: none; color: lightslategrey;">WhitePaper</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Where To contact?</h1>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/mail.png"> support@credx24.com</p>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/call.png"> Contact-No</p>
+        </div>
+    </div>
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">About</h1>
+            <p class="text-start text-muted">CredX Blockchain is the new age community-run technology powering the cryptocurrency CredX Coin (CDX).</p>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+                <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Use CredX</h1>
+                <div class="more"><p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="credx_wallet.html">CredX Wallets</a></p></div>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Get_CDX.html">Get CDX</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Refund_failed_transaction.html">Stack CDX</a></p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Learn</h1>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="What_is_credx.html">What is CredX?</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="what_is_cdx.html">What is CDX?</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Defi.html">Decentralized Finance(DeFi)</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="smart_contract.html">Smart Contracts</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="images/Credx_HongKong.pdf">WhitePaper</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="CredX_support.html">CredX Scam and Security</a></p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Developers</h1>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Developer_name.html">Developer'S Home</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Documentation.html">Documentation</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="set_up_local_environment.html">Set Up Local Environment</a></p>
+          </div>
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Enterprise</h1>
+            <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="mainnet_credx.html">Mainnet CredX</a></p>
+            <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="private_credx.html">Private CredX</a></p>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Community</h1> 
+            <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="communityhub.html">Community Hub</a></p>
+            <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="CredX_support.html">CredX Spport</a></p>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://credx24.com/">Credx24.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script>
+      wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
+  </body>
+</html>
